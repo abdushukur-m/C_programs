@@ -9,7 +9,7 @@ int main(){
     int arr[1000], n, R, in1, in2, sum, diff, closSum;
     srand(time(0));
 
-    printf("Enter size of the array a[]: ");
+    printf("Enter the size of the array a[]: ");
     scanf(" %d", &n); 
 
     printf("Enter R: ");
