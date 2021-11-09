@@ -24,7 +24,7 @@ int main(){
 
     for (int k = n; k > 0; k--){
         if(array[k-1]>array[k]&&array[k-1]>array[k-2]){
-        printf("\na[%d]=%d ",k,array[k]);
+        printf("\na[%d]=%d ",k-1,array[k-1]);
         break;
         }
     }
