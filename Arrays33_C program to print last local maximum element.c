@@ -22,7 +22,7 @@ int main(){
     }
     printf("\n\n");
 
-    for (int k = n; k > 0; k--){
+    for (int k = n; k > 1; k--){
         if(array[k-1]>array[k]&&array[k-1]>array[k-2]){
         printf("\na[%d]=%d ",k-1,array[k-1]);
         break;
